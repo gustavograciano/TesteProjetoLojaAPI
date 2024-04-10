@@ -17,6 +17,9 @@ Este comando instalará todas as dependências necessárias listadas no arquivo pac
 Configuração da API
 Certifique-se de configurar corretamente a URL da API no arquivo services/api.js para apontar para o seu ambiente de backend:
 
+Banco de dados
+Abra a pasta SQL que está dentro do projeto API e rodo o arquivo sql em seu banco de dados para gerar as tabelas de Usuario, Produto e Pedido juntamente com alguns dados de Produtos ficticios
+
 javascript
 Copy code
 import axios from 'axios';
